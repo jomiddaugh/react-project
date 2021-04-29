@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, .card-body>.card-title {
+  font-family: "Lobster", cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-title {
+  font-weight: 500;
+  font-size: 1.25rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h2 {
+  color: #17b31e;
+}
+
+.card-img-overlay .card-title {
   color: white;
+} 
+
+.huntCard {
+  background-color: rgba(0, 0, 0, 0.69);
 }
 
-.App-link {
-  color: #61dafb;
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.site-footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.69)),url(/src/images/realtree.jpg);
+  padding: 20px 0;
+  color: white;
+  height: 20vh;
+}
+
+.foot-link {
+  color: #17b31e;
+}
+
+a :active,
+a :hover {
+  color: #17b31e;
+
+}
+
+li {
+  color: #17b31e;
+}
+
+.jumbotron {
+  margin: 0;
+  padding: 20px;
+  color: white;
+  height: 30vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.95)),url(/src/images/realtree.jpg);
+  background-size: cover;
+}
+
+.jumbotron h2 {
+  color: #b85900;
+}
+
+.navbar-dark {
+  margin: 0;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+.c-1{
+  background-image: url(/src/images/joseph-oregon.jpg);
+  background-position: center;
+    background-size: cover;
+    height:75vh;
+    background-attachment: fixed;
 }
